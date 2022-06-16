@@ -7,11 +7,10 @@ exports.handler = async (event: any, context: any, callback: any) => {
     sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
     const mail_to_send = {
-        from: "toby.bostoen@student.howest.be",
+        from: "lore.cuypers@howest.be",
         to: mail,
-        cc: "lore.cuypers@howest.be",
         subject: 'Rapport over de beweegvriendelijkheid van jouw stad of gemeente',
-        templateId: 'd-576874eea4064991ba604911edead40f',
+        templateId: 'd-c5d068946c8f4e4b8b2d9f816c5618ee',
         dynamicTemplateData: {
             city: city
         },
