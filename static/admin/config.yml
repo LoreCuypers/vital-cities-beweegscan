@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: BostoenToby/vital-cities-beweegscan
-  branch: dev
+  repo: LoreCuypers/vital-cities-beweegscan
+  branch: master
 
 media_folder: src/images
 public_folder: /
