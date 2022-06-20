@@ -210,7 +210,7 @@ export default ({ location }: { location: any }) => {
             gatsbyImageData
           }
         }
-        ambitie1bench1: allGsVitalCitiesDataZoS03 {
+        ambitie1bench1: allGsDatawarehouseZoS03 {
           edges {
             node {
               jaar
@@ -224,7 +224,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie1bench2: allGsVitalCitiesDataMoS12 {
+        ambitie1bench2: allGsDatawarehouseMoS12 {
           edges {
             node {
               jaar
@@ -238,7 +238,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie1bench3: allGsVitalCitiesDataMoS07 {
+        ambitie1bench3: allGsDatawarehouseMoS07 {
           edges {
             node {
               jaar
@@ -250,7 +250,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie1bench4: allGsVitalCitiesDataMoS11 {
+        ambitie1bench4: allGsDatawarehouseMoS11 {
           edges {
             node {
               jaar
@@ -263,7 +263,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie2bench1: allGsVitalCitiesDataMoS17 {
+        ambitie2bench1: allGsDatawarehouseMoS17 {
           edges {
             node {
               jaar
@@ -275,7 +275,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie2bench2: allGsVitalCitiesDataMoS04 {
+        ambitie2bench2: allGsDatawarehouseMoS04 {
           edges {
             node {
               jaar
@@ -287,7 +287,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie2bench3: allGsVitalCitiesDataMoS09(
+        ambitie2bench3: allGsDatawarehouseMoS09(
           filter: { item: { eq: "Autoluwe en autovrije zones" } }
         ) {
           edges {
@@ -302,7 +302,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie2bench4: allGsVitalCitiesDataMoS09(
+        ambitie2bench4: allGsDatawarehouseMoS09(
           filter: { item: { eq: "Deelsystemen" } }
         ) {
           edges {
@@ -317,7 +317,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie2bench5: allGsVitalCitiesDataMoS13(
+        ambitie2bench5: allGsDatawarehouseMoS13(
           filter: { item: { eq: "Lidmaatschap autodelen" } }
         ) {
           edges {
@@ -330,7 +330,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie2bench6: allGsVitalCitiesDataMoS13(
+        ambitie2bench6: allGsDatawarehouseMoS13(
           filter: { item: { eq: "Lidmaatschap fietsdelen" } }
         ) {
           edges {
@@ -343,7 +343,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie3bench1: allGsVitalCitiesDataMoS01(
+        ambitie3bench1: allGsDatawarehouseMoS01(
           filter: { item: { eq: "Fietspaden in goede staat" } }
         ) {
           edges {
@@ -358,7 +358,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie3bench2: allGsVitalCitiesDataMoS01(
+        ambitie3bench2: allGsDatawarehouseMoS01(
           filter: { item: { eq: "Straten en pleinen in goede staat" } }
         ) {
           edges {
@@ -373,7 +373,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie3bench3: allGsVitalCitiesDataMoS01(
+        ambitie3bench3: allGsDatawarehouseMoS01(
           filter: { item: { eq: "Voetpaden in goede staat" } }
         ) {
           edges {
@@ -388,7 +388,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie3bench4: allGsVitalCitiesDataMoS03 {
+        ambitie3bench4: allGsDatawarehouseMoS03 {
           edges {
             node {
               jaar
@@ -400,7 +400,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie3bench5: allGsVitalCitiesDataMoS09(
+        ambitie3bench5: allGsDatawarehouseMoS09(
           filter: { item: { eq: "Fietsinfrastructuur" } }
         ) {
           edges {
@@ -415,7 +415,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie3bench6: allGsVitalCitiesDataMoS02 {
+        ambitie3bench6: allGsDatawarehouseMoS02 {
           edges {
             node {
               jaar
@@ -427,7 +427,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie3bench7: allGsVitalCitiesDataMoS06 {
+        ambitie3bench7: allGsDatawarehouseMoS06 {
           edges {
             node {
               jaar
@@ -439,7 +439,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie4bench1: allGsVitalCitiesDataCuS11 {
+        ambitie4bench1: allGsDatawarehouseCuS11 {
           edges {
             node {
               jaar
@@ -451,7 +451,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie4bench2: allGsVitalCitiesDataCuS10(
+        ambitie4bench2: allGsDatawarehouseCuS10(
           filter: { item: { eq: "Sporten in eigen gemeente" } }
         ) {
           edges {
@@ -466,7 +466,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie4bench3: allGsVitalCitiesDataCuS10(
+        ambitie4bench3: allGsDatawarehouseCuS10(
           filter: { item: { eq: "Sporten in andere gemeente" } }
         ) {
           edges {
@@ -481,7 +481,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie4bench4: allGsVitalCitiesDataCuS13 {
+        ambitie4bench4: allGsDatawarehouseCuS13 {
           edges {
             node {
               jaar
@@ -493,7 +493,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie4bench5: allGsVitalCitiesDataCuS12(
+        ambitie4bench5: allGsDatawarehouseCuS12(
           filter: { item: { eq: "Tevredenheid over sportvoorzieningen" } }
         ) {
           edges {
@@ -508,7 +508,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie4bench6: allGsVitalCitiesDataCuS07 {
+        ambitie4bench6: allGsDatawarehouseCuS07 {
           edges {
             node {
               jaar
@@ -518,7 +518,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie5bench1: allGsVitalCitiesDataCuS24(
+        ambitie5bench1: allGsDatawarehouseCuS24(
           filter: { item: { eq: "Voldoende geschikte plekken voor jeugd" } }
         ) {
           edges {
@@ -533,7 +533,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie5bench2: allGsVitalCitiesDataCuS24(
+        ambitie5bench2: allGsDatawarehouseCuS24(
           filter: {
             item: {
               eq: "Voldoende speelvoorzieningen voor kinderen en jongeren"
@@ -552,7 +552,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie5bench3: allGsVitalCitiesDataCuS21 {
+        ambitie5bench3: allGsDatawarehouseCuS21 {
           edges {
             node {
               jaar
@@ -564,7 +564,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie6bench1: allGsVitalCitiesDataSaS18 {
+        ambitie6bench1: allGsDatawarehouseSaS18 {
           edges {
             node {
               jaar
@@ -576,7 +576,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie6bench2: allGsVitalCitiesDataSaS17(
+        ambitie6bench2: allGsDatawarehouseSaS17(
           filter: { item: { eq: "Voldoende ontmoetingsplekken" } }
         ) {
           edges {
@@ -591,7 +591,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie6bench3: allGsVitalCitiesDataSaS17(
+        ambitie6bench3: allGsDatawarehouseSaS17(
           filter: { item: { eq: "Voldoende rustplekken" } }
         ) {
           edges {
@@ -606,7 +606,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie7bench1: allGsVitalCitiesDataKlS01(
+        ambitie7bench1: allGsDatawarehouseKlS01(
           filter: {
             item: { eq: "Bezoek park, bos, groenzone in andere gemeente" }
           }
@@ -624,7 +624,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie7bench2: allGsVitalCitiesDataKlS01(
+        ambitie7bench2: allGsDatawarehouseKlS01(
           filter: {
             item: { eq: "Bezoek park, bos, groenzone in eigen gemeente" }
           }
@@ -642,7 +642,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie7bench3: allGsVitalCitiesDataKlS02 {
+        ambitie7bench3: allGsDatawarehouseKlS02 {
           edges {
             node {
               jaar
@@ -654,7 +654,7 @@ export default ({ location }: { location: any }) => {
             }
           }
         }
-        ambitie7bench4: allGsVitalCitiesDataKlS03 {
+        ambitie7bench4: allGsDatawarehouseKlS03 {
           edges {
             node {
               jaar
