@@ -1,8 +1,9 @@
 ---
 ambition: groen
 text: Mensen vinden groen over het algemeen erg fijn. Verschillende doelgroepen
-  moeten er wel naast elkaar kunnen verblijven en sociale controle of toezicht
-  zorgt wel voor een groter gevoel van veiligheid als men er is.
-boldpart: Kinderen, jongeren en ouderen hebben elk hun eigen plek nodig, ook in
-  een park of bos.
+  moeten er naast elkaar kunnen verblijven en sociale controle of toezicht zorgt
+  wel voor een groter gevoel van veiligheid.
+boldpart: Het is niet de hoeveelheid groen, maar de manier waarop de groene
+  ruimte is ingericht en georganiseerd, die bepalend is voor de mate waarin deze
+  ruimte wordt benut voor sport en spelen
 ---
