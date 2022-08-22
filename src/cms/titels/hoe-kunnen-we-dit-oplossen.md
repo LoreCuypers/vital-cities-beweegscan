@@ -1,6 +1,6 @@
 ---
 title: Hoe kunnen we dit oplossen
-subtitle: Dit moet nog aangepast worden via CMS
+subtitle: .
 section: Hoe
 ambitions:
   - Algemene ambitie
