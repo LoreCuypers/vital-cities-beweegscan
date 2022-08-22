@@ -1,10 +1,11 @@
 ---
 ambition: verbonden stadskern
 title: Verbonden stadskern
-subtitle: Vroeger werden woonzones, bedrijvenzones, winkelzones van elkaar
-  gescheiden in onze steden. Men nam dan al snel de auto om zich tussen deze
-  zones te verplaatsen. Meer en meer worden functies gemengd, wat actief
-  transport erg in de hand werkt.
+subtitle: In een leefomgeving met een hoge bebouwingsdichtheid, een fijnmazig
+  stratenpatroon en een menging van woningen, voorzieningen, bedrijvigheid en
+  winkels kunnen bewoners gemakkelijk naar hun dagelijkse bestemmingen wandelen
+  of fietsen. Cruciale elementen om mensen aan te zetten om te fietsen of te
+  wandelen naar hun bestemming zijn veiligheid, nabijheid en toegankelijkheid.
 image: /verbonden-stadskern.png
 tag: verbonden stadskern
 ---
