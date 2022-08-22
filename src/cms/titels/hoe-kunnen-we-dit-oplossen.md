@@ -1,6 +1,6 @@
 ---
 title: Hoe kunnen we dit oplossen
-subtitle: .
+subtitle: " "
 section: Hoe
 ambitions:
   - Algemene ambitie
