@@ -1914,18 +1914,6 @@ export default ({ location }: { location: any }) => {
                           >
                             {item.title}
                           </h2>
-                          {cmsData.intBron && cmsData.intBron.length > 4 ? (
-                            <button
-                              className={`mb-4 text-left text-base font-semibold hover:opacity-75 tabletportrait:mb-0 tabletportrait:text-lg ${
-                                context.dark
-                                  ? 'text-lightPurpleDesat'
-                                  : 'text-purple'
-                              }`}
-                              onClick={() => setShowMore(!showMore)}
-                            >
-                              {showMore ? 'Minder weergeven' : 'Meer weergeven'}
-                            </button>
-                          ) : null}
                         </div>
                         <p
                           className={`mb-6 text-sm tabletportrait:text-lg laptop:w-4/5 laptop:text-xl ${
@@ -1939,7 +1927,6 @@ export default ({ location }: { location: any }) => {
                   }
                 })}
                 <div className="grid grid-cols-1 gap-10 text-sm tabletportrait:grid-cols-2 laptop:text-lg laptopL:grid-cols-4">
-                  {/* TODO: See more button om alle interessante bronnen te bekijken */}
                   {cmsData.intBron &&
                     cmsData.intBron.map((item: intBron, val: number) => {
                       if (showMore) {
@@ -1967,6 +1954,18 @@ export default ({ location }: { location: any }) => {
                       }
                     })}
                 </div>
+                {cmsData.intBron && cmsData.intBron.length > 4 ? (
+                  <button
+                    className={`mt-12 text-base font-semibold hover:opacity-75 tabletportrait:mb-0 tabletportrait:text-lg rounded border-2 px-2 py-1 text-white ${
+                      context.dark
+                        ? 'border-pinkDesat bg-pinkDesat hover:bg-opacity-0 hover:text-pinkDesat focus-visible:bg-white focus-visible:bg-opacity-0 focus-visible:text-pinkDesat'
+                        : 'border-pink bg-pink hover:bg-white hover:text-pink focus-visible:bg-white focus-visible:text-pink'
+                    }`}
+                    onClick={() => setShowMore(!showMore)}
+                  >
+                    {showMore ? 'Minder weergeven' : 'Meer weergeven'}
+                  </button>
+                ) : null}
               </section>
             </FadeInSection>
             <FadeInSection>
